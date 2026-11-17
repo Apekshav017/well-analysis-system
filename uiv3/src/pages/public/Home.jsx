@@ -28,9 +28,6 @@ export default function Home() {
       <section className="relative overflow-hidden rounded-3xl border border-emerald-800 bg-gradient-to-r from-emerald-950 via-emerald-900 to-slate-900 p-8 text-white shadow-xl sm:p-14">
         <div className="absolute inset-0 opacity-15 [background-image:radial-gradient(#10b981_1px,transparent_1px)] [background-size:16px_16px]" />
         <div className="relative z-10 max-w-2xl">
-          <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/20 px-3 py-1 text-xs font-semibold text-emerald-300">
-            <ScanSearch className="h-3.5 w-3.5" /> Satellite imagery • Deoli-Wardha, Maharashtra
-          </span>
           <h2 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">Agricultural Well Detection and Monitoring</h2>
           <p className="mb-8 text-sm leading-relaxed text-emerald-100/90 sm:text-base">
             {APP_NAME} by {ORG_SHORT}: finds open agricultural wells in satellite imagery, with exact coordinates, village names and confidence scores on interactive maps.
