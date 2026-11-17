@@ -385,7 +385,7 @@ export default function WellDetection() {
     <div className="space-y-6">
       <PageHeader
         title="Agricultural Well Detection"
-        subtitle="Search a village or a place to detect the wells inside it, with no upload. Or choose an image. Your runs and wells are shown here."
+        subtitle="Search a village or a place to detect the wells inside it. Or choose an image. Your runs and wells are shown here."
       >
         <Link to="/app/results" className={btn.secondary}><Table2 className="h-4 w-4" /> My results</Link>
       </PageHeader>

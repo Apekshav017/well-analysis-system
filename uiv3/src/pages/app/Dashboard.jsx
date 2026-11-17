@@ -75,7 +75,7 @@ export default function Dashboard() {
     <div className="space-y-6">
       <PageHeader
         title="Dashboard Overview"
-        subtitle={scope === "mine" ? `Your detections, ${user?.fullName}.` : "All detections so far, from every account."}
+        subtitle={`See the overview of detected wells.`}  
       >
         <ScopeToggle value={scope} onChange={setScope} />
         <Link to="/app/detection" className={btn.primary}><Satellite className="h-4 w-4" /> New detection</Link>
